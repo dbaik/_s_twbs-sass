@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "watch": "node-sass --watch ./assets/sass --o ./ --output-style nested --source-map true",
+    "prod": "node-sass --include-path scss ./assets/sass --o ./ --output-style compressed"
+  }
+}
